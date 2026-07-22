@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Cargo2869 — 中国采购、国际物流、清关与海外仓服务。" />
+  <title>Cargo2869 | 中国采购与国际物流</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <span class="brand-badge">2869</span>
+        <span class="brand-name">Cargo2869</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home" data-i18n="navHome">首页</a>
+        <a href="#services" data-i18n="navServices">服务</a>
+        <a href="#routes" data-i18n="navRoutes">运输线路</a>
+        <a href="#about" data-i18n="navAbout">关于我们</a>
+        <a href="#contact" data-i18n="navContact">联系我们</a>
+      </nav>
+
+      <div class="nav-actions">
+        <select id="languageSelect" aria-label="Language">
+          <option value="zh">中文</option>
+          <option value="ru">Русский</option>
+          <option value="en">English</option>
+        </select>
+        <a class="btn btn-small" href="https://t.me/KYTON2869Boss" target="_blank" rel="noopener">Telegram</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow" data-i18n="heroEyebrow">中国采购 · 国际物流 · 清关服务</p>
+        <h1 data-i18n="heroTitle">连接中国与欧亚市场的可靠物流伙伴</h1>
+        <p class="hero-copy" data-i18n="heroText">
+          从供应商采购、验货打包，到汽车、铁路、航空和海运，我们提供一站式跨境供应链服务。
+        </p>
+        <div class="hero-buttons">
+          <a class="btn" href="#contact" data-i18n="getQuote">获取报价</a>
+          <a class="btn btn-outline" href="#services" data-i18n="learnMore">了解服务</a>
+        </div>
+
+        <div class="stats">
+          <div><strong>4+</strong><span data-i18n="statCountries">服务国家</span></div>
+          <div><strong>1</strong><span data-i18n="statBox">一箱起运</span></div>
+          <div><strong>4</strong><span data-i18n="statModes">运输方式</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow dark" data-i18n="servicesEyebrow">核心业务</p>
+          <h2 data-i18n="servicesTitle">从采购到交付的一站式服务</h2>
+          <p data-i18n="servicesText">面向俄罗斯、哈萨克斯坦、吉尔吉斯斯坦和白俄罗斯客户。</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="icon">采购</div>
+            <h3 data-i18n="service1Title">中国采购</h3>
+            <p data-i18n="service1Text">协助对接1688、淘宝、工厂和批发市场，支持代付、验货、合箱与贴标。</p>
+          </article>
+          <article class="card">
+            <div class="icon">运输</div>
+            <h3 data-i18n="service2Title">国际物流</h3>
+            <p data-i18n="service2Text">提供汽车、铁路、航空和海运方案，根据货物类型、预算和时效选择线路。</p>
+          </article>
+          <article class="card">
+            <div class="icon">清关</div>
+            <h3 data-i18n="service3Title">清关服务</h3>
+            <p data-i18n="service3Text">支持灰关与白关运输，可按项目提供合同、发票及相关清关文件。</p>
+          </article>
+          <article class="card">
+            <div class="icon">仓储</div>
+            <h3 data-i18n="service4Title">海外仓</h3>
+            <p data-i18n="service4Text">提供收货、暂存、分拣、打包、退货处理与本地配送协助。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="routes">
+      <div class="container split">
+        <div>
+          <p class="eyebrow dark" data-i18n="routesEyebrow">运输线路</p>
+          <h2 data-i18n="routesTitle">覆盖中国与欧亚主要市场</h2>
+          <p data-i18n="routesText">根据货物品类、体积、重量和交付要求，为客户设计合适的运输方案。</p>
+          <ul class="check-list">
+            <li data-i18n="route1">中国 → 俄罗斯</li>
+            <li data-i18n="route2">中国 → 哈萨克斯坦</li>
+            <li data-i18n="route3">中国 → 吉尔吉斯斯坦</li>
+            <li data-i18n="route4">中国 → 白俄罗斯</li>
+          </ul>
+        </div>
+
+        <div class="route-panel">
+          <div class="route-row"><span data-i18n="road">汽车运输</span><strong data-i18n="roadDesc">灵活，适合大多数普货</strong></div>
+          <div class="route-row"><span data-i18n="rail">铁路运输</span><strong data-i18n="railDesc">稳定，适合批量货物</strong></div>
+          <div class="route-row"><span data-i18n="air">航空运输</span><strong data-i18n="airDesc">快速，适合紧急订单</strong></div>
+          <div class="route-row"><span data-i18n="sea">海运</span><strong data-i18n="seaDesc">经济，适合大体积货物</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div class="about-box">
+          <span class="about-number">2869</span>
+          <p data-i18n="aboutTag">专注中国采购与欧亚跨境物流</p>
+        </div>
+        <div>
+          <p class="eyebrow dark" data-i18n="aboutEyebrow">关于 Cargo2869</p>
+          <h2 data-i18n="aboutTitle">让跨境采购和运输更简单</h2>
+          <p data-i18n="aboutText1">我们为客户整合中国供应商、仓库、运输线路和目的地服务，减少沟通成本和操作环节。</p>
+          <p data-i18n="aboutText2">无论是样品、小批量订单，还是长期批量运输，都可以根据实际需求制定方案。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow" data-i18n="contactEyebrow">联系我们</p>
+          <h2 data-i18n="contactTitle">告诉我们货物信息，获取运输方案</h2>
+          <p data-i18n="contactText">请准备品名、数量、重量、体积、提货城市和目的地，我们会尽快回复。</p>
+        </div>
+        <div class="contact-card">
+          <a href="https://t.me/KYTON2869Boss" target="_blank" rel="noopener">
+            <span>Telegram</span><strong>@KYTON2869Boss</strong>
+          </a>
+          <a href="mailto:hchaodan@gmail.com">
+            <span>Email</span><strong>hchaodan@gmail.com</strong>
+          </a>
+          <div>
+            <span data-i18n="contactRegion">服务地区</span>
+            <strong data-i18n="contactRegionValue">俄罗斯 / 哈萨克斯坦 / 吉尔吉斯斯坦 / 白俄罗斯</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Cargo2869</strong>
+        <p data-i18n="footerText">中国采购与国际物流服务</p>
+      </div>
+      <p>© <span id="year"></span> Cargo2869</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
